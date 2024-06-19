@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "ButtonAndFlowerExpo",
+    "slug": "buttonandflowerexpo-4bemw3yf-2zkxrg9hcali",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lironssss.buttonandflowerexpo4bemw3yf2zkxrg9hcali"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lironssss.buttonandflowerexpo4bemw3yf2zkxrg9hcali"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bc2e9457-76fa-4443-9cb9-549dbf39cecd"
+      }
+    },
+    "owner": "liron_ssss",
+    "updates": {
+      "url": "https://u.expo.dev/bc2e9457-76fa-4443-9cb9-549dbf39cecd"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
